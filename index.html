@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gollen co.</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">The Gollen co.</div>
+        <div class="img-logo">
+            <img src="./img/logo.png" alt="Logo" class="img-logo">
+        </div>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="side-menu" id="sideMenu">
+        <nav>
+            <a href="#inicio" onclick="toggleMenu()">Início</a>
+            <a href="#diferencial" onclick="toggleMenu()">Diferencial</a>
+            <a href="#galeria" onclick="toggleMenu()">Galeria</a>
+            <a href="#processo" onclick="toggleMenu()">Processo</a>
+            <a href="#contato" onclick="toggleMenu()">Contato</a>
+        </nav>
+    </div>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>DÊ MAIS VIDA ÀS PAREDES</h1>
+            <p>Telas personalizadas para projetos arquitetônicos exclusivos</p>
+            <a href="#contato" class="cta-button">SOLICITE UM ORÇAMENTO</a>
+        </div>
+    </section>
+
+    <section class="differential reveal" id="diferencial">
+        <h2>Nosso Diferencial</h2>
+        <p>Especializados em criar obras de arte únicas e personalizadas para arquitetos e designers de interiores. Cada
+            peça é cuidadosamente planejada para harmonizar perfeitamente com o conceito do seu projeto.</p>
+
+        <div class="features">
+            <div class="feature reveal" style="transition-delay: 0.1s">
+                <div class="feature-icon">🎨</div>
+                <h3>Sob Encomenda</h3>
+                <p>Criamos obras exclusivas baseadas nas suas especificações, cores e conceito do projeto.</p>
+            </div>
+            <div class="feature reveal" style="transition-delay: 0.2s">
+                <div class="feature-icon">📏</div>
+                <h3>Medidas Personalizadas</h3>
+                <p>Qualquer dimensão para se adaptar perfeitamente ao espaço arquitetônico.</p>
+            </div>
+            <div class="feature reveal" style="transition-delay: 0.3s">
+                <div class="feature-icon">🤝</div>
+                <h3>Consultoria para Arquitetos</h3>
+                <p>Trabalhamos lado a lado com profissionais para garantir a integração perfeita da arte ao projeto.</p>
+            </div>
+            <div class="feature reveal" style="transition-delay: 0.4s">
+                <div class="feature-icon">⚡</div>
+                <h3>Prazos Flexíveis</h3>
+                <p>Adaptamos nosso cronograma às necessidades do seu projeto.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+        <h2 class="reveal">Trabalhos Realizados</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item reveal" style="transition-delay: 0.1s">
+                <img src="https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=800&h=600&fit=crop" alt="Obra 1">
+                <div class="gallery-overlay">
+                    <h3>Abstrato Contemporâneo</h3>
+                    <p>150 x 200 cm - Residência SP</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal" style="transition-delay: 0.2s">
+                <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&h=600&fit=crop"
+                    alt="Obra 2">
+                <div class="gallery-overlay">
+                    <h3>Tons Terrosos</h3>
+                    <p>120 x 180 cm - Escritório RJ</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal" style="transition-delay: 0.3s">
+                <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&h=600&fit=crop"
+                    alt="Obra 3">
+                <div class="gallery-overlay">
+                    <h3>Minimalista Azul</h3>
+                    <p>100 x 150 cm - Hotel BA</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal" style="transition-delay: 0.4s">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop"
+                    alt="Obra 4">
+                <div class="gallery-overlay">
+                    <h3>Textura Dourada</h3>
+                    <p>180 x 240 cm - Lobby Corporativo</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal" style="transition-delay: 0.5s">
+                <img src="https://images.unsplash.com/photo-1578926078392-dd69c82ab128?w=800&h=600&fit=crop"
+                    alt="Obra 5">
+                <div class="gallery-overlay">
+                    <h3>Expressionista</h3>
+                    <p>140 x 200 cm - Galeria MG</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal" style="transition-delay: 0.6s">
+                <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=800&h=600&fit=crop" alt="Obra 6">
+                <div class="gallery-overlay">
+                    <h3>Geométrico Moderno</h3>
+                    <p>160 x 160 cm - Residência SC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="processo">
+        <h2 class="reveal">Como Funciona</h2>
+        <div class="process-steps">
+            <div class="step reveal" style="transition-delay: 0.1s">
+                <div class="step-number">1</div>
+                <h3>Consulta Inicial</h3>
+                <p>Conversamos sobre o projeto, estilo, dimensões e prazos desejados.</p>
+            </div>
+            <div class="step reveal" style="transition-delay: 0.2s">
+                <div class="step-number">2</div>
+                <h3>Desenvolvimento</h3>
+                <p>Criamos estudos e esboços para aprovação antes de iniciar a pintura.</p>
+            </div>
+            <div class="step reveal" style="transition-delay: 0.3s">
+                <div class="step-number">3</div>
+                <h3>Execução</h3>
+                <p>A obra é cuidadosamente pintada com técnicas profissionais e materiais premium.</p>
+            </div>
+            <div class="step reveal" style="transition-delay: 0.4s">
+                <div class="step-number">4</div>
+                <h3>Entrega</h3>
+                <p>Embalagem segura e entrega no local, com instalação se necessário.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact reveal" id="contato">
+        <div class="contact-container">
+            <h2>Vamos Criar Algo Único?</h2>
+            <p>Entre em contato para discutir seu projeto e receber um orçamento personalizado.</p>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Telefone" required>
+                    <input type="text" placeholder="Empresa/Escritório">
+                </div>
+                <textarea placeholder="Conte-nos sobre seu projeto..." required></textarea>
+                <button type="submit" class="submit-button">ENVIAR MENSAGEM</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 The Gollen co.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
